@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("ChatClient")]
+[assembly: AssemblyTitle("ChatClient.Common")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ChatClient")]
+[assembly: AssemblyProduct("ChatClient.Common")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("3997a85a-9a0c-4e8a-9443-d45ac984f3e7")]
+[assembly: Guid("bfa1b2e3-4dd5-4bfb-b057-2e9509ff3998")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

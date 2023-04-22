@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{709EC7E6-79EC-485F-B714-40696233C547}</ProjectGuid>
+    <ProjectGuid>{3997A85A-9A0C-4E8A-9443-D45AC984F3E7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ChatClient</RootNamespace>
     <AssemblyName>ChatClient</AssemblyName>
@@ -75,6 +75,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChatClient.Api\ChatClient.Api.csproj">
+      <Project>{7620058a-547c-4190-8491-7b502a3e8275}</Project>
+      <Name>ChatClient.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatClient.Common\ChatClient.Common.csproj">
+      <Project>{bfa1b2e3-4dd5-4bfb-b057-2e9509ff3998}</Project>
+      <Name>ChatClient.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatClient.Services\ChatClient.Services.csproj">
+      <Project>{2c39860e-8399-4ae6-b065-e2770c4279b9}</Project>
+      <Name>ChatClient.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
